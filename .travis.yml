@@ -1,1 +1,5 @@
+before_install:
+  - sudo apt-get update
+  - sudo apt install -y libxcb-shape0-dev libxcb-xfixes0-dev libxtst-dev
+
 language: rust
