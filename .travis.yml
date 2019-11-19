@@ -3,3 +3,4 @@ before_install:
   - sudo apt install -y libxcb-shape0-dev libxcb-xfixes0-dev libxtst-dev
 
 language: rust
+cache: cargo
