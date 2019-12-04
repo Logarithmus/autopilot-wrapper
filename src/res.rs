@@ -1,4 +1,3 @@
-use autopilot::bitmap::Bitmap;
 use std::path::{Path, PathBuf};
 
 lazy_static! {
@@ -17,8 +16,4 @@ macro_rules! gray_image {
             None,
         );
     };
-}
-
-lazy_static! {
-    pub static ref PROGRESS_BAR: Bitmap = gray_image!("progess_bar.png");
 }

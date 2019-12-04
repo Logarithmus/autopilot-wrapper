@@ -1,4 +1,4 @@
-mod res;
+pub mod res;
 
 use crate::res::RES_PATH;
 use autopilot::bitmap::*;
