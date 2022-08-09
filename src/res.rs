@@ -14,6 +14,6 @@ macro_rules! gray_image {
                 .expect("Can't open $name")
                 .grayscale(),
             None,
-        );
+        )
     };
 }
